@@ -1,4 +1,8 @@
 # esp32cam_AccessControl
+ESP32 CAM居家安全AI+IoT監控系統
+ESP32CAM AI人臉辨識功能控制門禁管制及物聯網line notify通知訊息
+當系統啟動並wifi connect,可在任一瀏覽器進入觀看ESP32cam拍攝畫面並進行臉部辨識及面部綁定(最多７人)
+之後臉部辨識出綁定時GIOP2 HIGH,啟動relay帶動電磁閥開啟門禁。若遇非綁定之臉部,則啟動line notify將拍攝到之陌生面孔傳送到手機。
 
 CameraWebServerOpendoor1004.ino
 
