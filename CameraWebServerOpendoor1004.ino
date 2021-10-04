@@ -693,8 +693,8 @@ void startCameraServer(){
 
 #include "camera_pins.h"
 
-const char* ssid = "ILCClass_204240";
-const char* password = "ilc9369968";
+const char* ssid = "your ssid";
+const char* password = "password";
 
 void startCameraServer();
 
@@ -778,7 +778,7 @@ void setup() {
   Serial.println("' to connect");
 }
 
-String myLineNotifyToken = "C8RJOmlcPjRnbzeyrKklvkiCmYOMCJjSbu6pRUsRcPQ";
+String myLineNotifyToken = "line token";
 String sendImage2LineNotify(String msg) {
   camera_fb_t * fb = NULL;
   fb = esp_camera_fb_get();//取得相機影像放置fb
